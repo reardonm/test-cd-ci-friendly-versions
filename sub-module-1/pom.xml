@@ -14,10 +14,4 @@
         <module>child-1-1</module>
         <module>child-1-2</module>
     </modules>
-    <properties>
-        <!-- developers generate x.y.0-SNAPSHOT -->
-        <revision>${build}${sha1}</revision>
-        <build>0-SNAPSHOT</build>
-        <sha1/>
-    </properties>
 </project>
